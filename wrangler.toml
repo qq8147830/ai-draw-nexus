@@ -1,0 +1,9 @@
+name = "ai-draw-nexus"
+compatibility_date = "2025-12-31"
+pages_build_output_dir = "dist"
+
+[env.production.vars]
+AI_API_KEY = "sk-svkhvwajmwtvrirxgpqfzzzqlewzsjvvicqbqlwoptbcsocxqj"
+AI_BASE_URL = "https://api.siliconflow.cn/v1"
+AI_PROVIDER = "siliconflow"
+AI_MODEL_ID = "Qwen/Qwen2.5-7B-Instruct"
